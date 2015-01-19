@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7D2A511A6B4A7D005A878C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D2A501A6B4A7D005A878C /* Cocoa.framework */; };
+		FA7D2A5B1A6B4A7D005A878C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2A591A6B4A7D005A878C /* InfoPlist.strings */; };
+		FA7D2A5D1A6B4A7D005A878C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D2A5C1A6B4A7D005A878C /* main.m */; };
+		FA7D2A611A6B4A7D005A878C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2A5F1A6B4A7D005A878C /* Credits.rtf */; };
+		FA7D2A641A6B4A7D005A878C /* UTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D2A631A6B4A7D005A878C /* UTAppDelegate.m */; };
+		FA7D2A671A6B4A7D005A878C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2A651A6B4A7D005A878C /* MainMenu.xib */; };
+		FA7D2A691A6B4A7D005A878C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2A681A6B4A7D005A878C /* Images.xcassets */; };
+		FA7D2A701A6B4A7E005A878C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D2A6F1A6B4A7D005A878C /* XCTest.framework */; };
+		FA7D2A711A6B4A7E005A878C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D2A501A6B4A7D005A878C /* Cocoa.framework */; };
+		FA7D2A791A6B4A7E005A878C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2A771A6B4A7E005A878C /* InfoPlist.strings */; };
+		FA7D2A7B1A6B4A7E005A878C /* BigLetterViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D2A7A1A6B4A7E005A878C /* BigLetterViewTests.m */; };
+		FA7D2A861A6B4C0E005A878C /* UTBigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7D2A851A6B4C0E005A878C /* UTBigLetterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7D2A721A6B4A7E005A878C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D2A451A6B4A7D005A878C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D2A4C1A6B4A7D005A878C;
+			remoteInfo = BigLetterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7D2A4D1A6B4A7D005A878C /* BigLetterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigLetterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D2A501A6B4A7D005A878C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA7D2A531A6B4A7D005A878C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA7D2A541A6B4A7D005A878C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA7D2A551A6B4A7D005A878C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA7D2A581A6B4A7D005A878C /* BigLetterView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigLetterView-Info.plist"; sourceTree = "<group>"; };
+		FA7D2A5A1A6B4A7D005A878C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7D2A5C1A6B4A7D005A878C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA7D2A5E1A6B4A7D005A878C /* BigLetterView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigLetterView-Prefix.pch"; sourceTree = "<group>"; };
+		FA7D2A601A6B4A7D005A878C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA7D2A621A6B4A7D005A878C /* UTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTAppDelegate.h; sourceTree = "<group>"; };
+		FA7D2A631A6B4A7D005A878C /* UTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAppDelegate.m; sourceTree = "<group>"; };
+		FA7D2A661A6B4A7D005A878C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA7D2A681A6B4A7D005A878C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA7D2A6E1A6B4A7D005A878C /* BigLetterViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigLetterViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D2A6F1A6B4A7D005A878C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA7D2A761A6B4A7E005A878C /* BigLetterViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigLetterViewTests-Info.plist"; sourceTree = "<group>"; };
+		FA7D2A781A6B4A7E005A878C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7D2A7A1A6B4A7E005A878C /* BigLetterViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigLetterViewTests.m; sourceTree = "<group>"; };
+		FA7D2A841A6B4C0E005A878C /* UTBigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTBigLetterView.h; sourceTree = "<group>"; };
+		FA7D2A851A6B4C0E005A878C /* UTBigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBigLetterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7D2A4A1A6B4A7D005A878C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A511A6B4A7D005A878C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D2A6B1A6B4A7D005A878C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A711A6B4A7E005A878C /* Cocoa.framework in Frameworks */,
+				FA7D2A701A6B4A7E005A878C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7D2A441A6B4A7D005A878C = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A561A6B4A7D005A878C /* BigLetterView */,
+				FA7D2A741A6B4A7E005A878C /* BigLetterViewTests */,
+				FA7D2A4F1A6B4A7D005A878C /* Frameworks */,
+				FA7D2A4E1A6B4A7D005A878C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7D2A4E1A6B4A7D005A878C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A4D1A6B4A7D005A878C /* BigLetterView.app */,
+				FA7D2A6E1A6B4A7D005A878C /* BigLetterViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7D2A4F1A6B4A7D005A878C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A501A6B4A7D005A878C /* Cocoa.framework */,
+				FA7D2A6F1A6B4A7D005A878C /* XCTest.framework */,
+				FA7D2A521A6B4A7D005A878C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7D2A521A6B4A7D005A878C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A531A6B4A7D005A878C /* AppKit.framework */,
+				FA7D2A541A6B4A7D005A878C /* CoreData.framework */,
+				FA7D2A551A6B4A7D005A878C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA7D2A561A6B4A7D005A878C /* BigLetterView */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A621A6B4A7D005A878C /* UTAppDelegate.h */,
+				FA7D2A631A6B4A7D005A878C /* UTAppDelegate.m */,
+				FA7D2A651A6B4A7D005A878C /* MainMenu.xib */,
+				FA7D2A841A6B4C0E005A878C /* UTBigLetterView.h */,
+				FA7D2A851A6B4C0E005A878C /* UTBigLetterView.m */,
+				FA7D2A681A6B4A7D005A878C /* Images.xcassets */,
+				FA7D2A571A6B4A7D005A878C /* Supporting Files */,
+			);
+			path = BigLetterView;
+			sourceTree = "<group>";
+		};
+		FA7D2A571A6B4A7D005A878C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A581A6B4A7D005A878C /* BigLetterView-Info.plist */,
+				FA7D2A591A6B4A7D005A878C /* InfoPlist.strings */,
+				FA7D2A5C1A6B4A7D005A878C /* main.m */,
+				FA7D2A5E1A6B4A7D005A878C /* BigLetterView-Prefix.pch */,
+				FA7D2A5F1A6B4A7D005A878C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7D2A741A6B4A7E005A878C /* BigLetterViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A7A1A6B4A7E005A878C /* BigLetterViewTests.m */,
+				FA7D2A751A6B4A7E005A878C /* Supporting Files */,
+			);
+			path = BigLetterViewTests;
+			sourceTree = "<group>";
+		};
+		FA7D2A751A6B4A7E005A878C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D2A761A6B4A7E005A878C /* BigLetterViewTests-Info.plist */,
+				FA7D2A771A6B4A7E005A878C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7D2A4C1A6B4A7D005A878C /* BigLetterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D2A7E1A6B4A7E005A878C /* Build configuration list for PBXNativeTarget "BigLetterView" */;
+			buildPhases = (
+				FA7D2A491A6B4A7D005A878C /* Sources */,
+				FA7D2A4A1A6B4A7D005A878C /* Frameworks */,
+				FA7D2A4B1A6B4A7D005A878C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigLetterView;
+			productName = BigLetterView;
+			productReference = FA7D2A4D1A6B4A7D005A878C /* BigLetterView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7D2A6D1A6B4A7D005A878C /* BigLetterViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D2A811A6B4A7E005A878C /* Build configuration list for PBXNativeTarget "BigLetterViewTests" */;
+			buildPhases = (
+				FA7D2A6A1A6B4A7D005A878C /* Sources */,
+				FA7D2A6B1A6B4A7D005A878C /* Frameworks */,
+				FA7D2A6C1A6B4A7D005A878C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D2A731A6B4A7E005A878C /* PBXTargetDependency */,
+			);
+			name = BigLetterViewTests;
+			productName = BigLetterViewTests;
+			productReference = FA7D2A6E1A6B4A7D005A878C /* BigLetterViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7D2A451A6B4A7D005A878C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Deqiang Qiu";
+				TargetAttributes = {
+					FA7D2A6D1A6B4A7D005A878C = {
+						TestTargetID = FA7D2A4C1A6B4A7D005A878C;
+					};
+				};
+			};
+			buildConfigurationList = FA7D2A481A6B4A7D005A878C /* Build configuration list for PBXProject "BigLetterView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7D2A441A6B4A7D005A878C;
+			productRefGroup = FA7D2A4E1A6B4A7D005A878C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7D2A4C1A6B4A7D005A878C /* BigLetterView */,
+				FA7D2A6D1A6B4A7D005A878C /* BigLetterViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7D2A4B1A6B4A7D005A878C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A5B1A6B4A7D005A878C /* InfoPlist.strings in Resources */,
+				FA7D2A691A6B4A7D005A878C /* Images.xcassets in Resources */,
+				FA7D2A611A6B4A7D005A878C /* Credits.rtf in Resources */,
+				FA7D2A671A6B4A7D005A878C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D2A6C1A6B4A7D005A878C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A791A6B4A7E005A878C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D2A491A6B4A7D005A878C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A5D1A6B4A7D005A878C /* main.m in Sources */,
+				FA7D2A641A6B4A7D005A878C /* UTAppDelegate.m in Sources */,
+				FA7D2A861A6B4C0E005A878C /* UTBigLetterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D2A6A1A6B4A7D005A878C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D2A7B1A6B4A7E005A878C /* BigLetterViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7D2A731A6B4A7E005A878C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D2A4C1A6B4A7D005A878C /* BigLetterView */;
+			targetProxy = FA7D2A721A6B4A7E005A878C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7D2A591A6B4A7D005A878C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D2A5A1A6B4A7D005A878C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA7D2A5F1A6B4A7D005A878C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D2A601A6B4A7D005A878C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA7D2A651A6B4A7D005A878C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D2A661A6B4A7D005A878C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FA7D2A771A6B4A7E005A878C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D2A781A6B4A7E005A878C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7D2A7C1A6B4A7E005A878C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7D2A7D1A6B4A7E005A878C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA7D2A7F1A6B4A7E005A878C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLetterView/BigLetterView-Prefix.pch";
+				INFOPLIST_FILE = "BigLetterView/BigLetterView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA7D2A801A6B4A7E005A878C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLetterView/BigLetterView-Prefix.pch";
+				INFOPLIST_FILE = "BigLetterView/BigLetterView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA7D2A821A6B4A7E005A878C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigLetterView.app/Contents/MacOS/BigLetterView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLetterView/BigLetterView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BigLetterViewTests/BigLetterViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA7D2A831A6B4A7E005A878C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigLetterView.app/Contents/MacOS/BigLetterView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLetterView/BigLetterView-Prefix.pch";
+				INFOPLIST_FILE = "BigLetterViewTests/BigLetterViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7D2A481A6B4A7D005A878C /* Build configuration list for PBXProject "BigLetterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D2A7C1A6B4A7E005A878C /* Debug */,
+				FA7D2A7D1A6B4A7E005A878C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D2A7E1A6B4A7E005A878C /* Build configuration list for PBXNativeTarget "BigLetterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D2A7F1A6B4A7E005A878C /* Debug */,
+				FA7D2A801A6B4A7E005A878C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA7D2A811A6B4A7E005A878C /* Build configuration list for PBXNativeTarget "BigLetterViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D2A821A6B4A7E005A878C /* Debug */,
+				FA7D2A831A6B4A7E005A878C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7D2A451A6B4A7D005A878C /* Project object */;
+}
